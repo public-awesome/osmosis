@@ -283,96 +283,7 @@ func MainnetGenesisParams() GenesisParams {
 		},
 	}
 
-	genParams.StrategicReserveAccounts = []banktypes.Balance{
-		{
-			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(47_874_500_000_000))), // 47.8745 million OSMO
-		},
-		{
-			Address: "osmo1g7rp8h6wzekjjy8n6my8za3vg3338eqz3v295v",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(500_000_000_000))), // 500 thousand OSMO
-		},
-		{
-			Address: "osmo1z7ql0vcjlznrruw3hwgm043w8yhzqmtpu5rlp9",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(1_000_000_000_000))), // 1 million OSMO
-		},
-		{
-			Address: "osmo1grgelyng2v6v3t8z87wu3sxgt9m5s03xytvfcl",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo1yuz4fct5cc3td6fp7he055mut0d4ukcsvlgpkg",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo1epr7gp5gf9ftkduzlkckmehqk9dyn063xref53",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo1enu76xfqkadu022hkdg7rwyc4pqq6jzn3zy395",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo1njvfq5pdad2f5j0uvqtfdujyg8c5sde2n6yw2t",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo1gaajper2qphnk6rnpy8zjhhg2kstnd87sh36hx",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(25_000_000_000))),
-		},
-		{
-			Address: "osmo1xl6r0n34mq0z7gfx7w2qf3f2vq70g5ph7n78hs",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo13stzqk27y46cr8fz7vfr8dsqqk4wpz90fqmc23",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo12wmptq2zm3s2d8c0xukwj3fkcl0qw66wmxwr7x",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(25_000_000_000))),
-		},
-		{
-			Address: "osmo1qc74lw7f8ak737jy2at36wa9tyrgldk8kpskzg",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(5_000_000_000))),
-		},
-		{
-			Address: "osmo1m3lvlydlu3mqv7z9xgtqjplcx20yc3lmx3p73e",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(10_000_000_000))),
-		},
-		{
-			Address: "osmo14u94qvqqdyjruufc08m6rwq8yz3ukurkzkvczx",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(7_500_000_000))),
-		},
-		{
-			Address: "osmo15t8y5mzdmz54fcj2wq3qutgtharuxdg7zu9q98",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo1ngt8m8722qxcgdpqjwe3ggwcpg6zns8axpxtt0",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo17ncgp84x5vmphdlaaktzp7hljh3mhysqw9up3u",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo16n7070n4whce0wlu76j42dyrxh9f7nlapg6c4a",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(50_000_000_000))),
-		},
-		{
-			Address: "osmo1vnyc6q49sr0hs9ddjepcmtlaq3l6wwj0rrw6hd",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(1_000_000_000))),
-		},
-		{
-			Address: "osmo1ujx3rqerqdksnxnjka2n9tde874mzut75hzx92",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(1_000_000_000))),
-		},
-		{
-			Address: "osmo1a2r7nqnc9e032wj37ptskh207e232462vcrrjf",
-			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(1_000_000_000))),
-		},
-	}
+	genParams.StrategicReserveAccounts = []banktypes.Balance{}
 
 	genParams.StakingParams = stakingtypes.DefaultParams()
 	genParams.StakingParams.UnbondingTime = time.Hour * 24 * 7 * 2 // 2 weeks
@@ -393,68 +304,7 @@ func MainnetGenesisParams() GenesisParams {
 		CommunityPool:    sdk.MustNewDecFromStr("0.05"), // 5%
 	}
 	genParams.MintParams.MintingRewardsDistributionStartEpoch = 1
-	genParams.MintParams.WeightedDeveloperRewardsReceivers = []minttypes.WeightedAddress{
-		minttypes.WeightedAddress{
-			Address: "osmo14kjcwdwcqsujkdt8n5qwpd8x8ty2rys5rjrdjj",
-			Weight:  sdk.MustNewDecFromStr("0.2887"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1gw445ta0aqn26suz2rg3tkqfpxnq2hs224d7gq",
-			Weight:  sdk.MustNewDecFromStr("0.2290"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo13lt0hzc6u3htsk7z5rs6vuurmgg4hh2ecgxqkf",
-			Weight:  sdk.MustNewDecFromStr("0.1625"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1kvc3he93ygc0us3ycslwlv2gdqry4ta73vk9hu",
-			Weight:  sdk.MustNewDecFromStr("0.109"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo19qgldlsk7hdv3ddtwwpvzff30pxqe9phq9evxf",
-			Weight:  sdk.MustNewDecFromStr("0.0995"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo19fs55cx4594een7qr8tglrjtt5h9jrxg458htd",
-			Weight:  sdk.MustNewDecFromStr("0.06"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1ssp6px3fs3kwreles3ft6c07mfvj89a544yj9k",
-			Weight:  sdk.MustNewDecFromStr("0.015"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1c5yu8498yzqte9cmfv5zcgtl07lhpjrj0skqdx",
-			Weight:  sdk.MustNewDecFromStr("0.01"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1yhj3r9t9vw7qgeg22cehfzj7enwgklw5k5v7lj",
-			Weight:  sdk.MustNewDecFromStr("0.0075"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo18nzmtyn5vy5y45dmcdnta8askldyvehx66lqgm",
-			Weight:  sdk.MustNewDecFromStr("0.007"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1z2x9z58cg96ujvhvu6ga07yv9edq2mvkxpgwmc",
-			Weight:  sdk.MustNewDecFromStr("0.005"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1tvf3373skua8e6480eyy38avv8mw3hnt8jcxg9",
-			Weight:  sdk.MustNewDecFromStr("0.0025"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1zs0txy03pv5crj2rvty8wemd3zhrka2ne8u05n",
-			Weight:  sdk.MustNewDecFromStr("0.0025"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1djgf9p53n7m5a55hcn6gg0cm5mue4r5g3fadee",
-			Weight:  sdk.MustNewDecFromStr("0.001"),
-		},
-		minttypes.WeightedAddress{
-			Address: "osmo1488zldkrn8xcjh3z40v2mexq7d088qkna8ceze",
-			Weight:  sdk.MustNewDecFromStr("0.0008"),
-		},
-	}
+	genParams.MintParams.WeightedDeveloperRewardsReceivers = []minttypes.WeightedAddress{}
 
 	genParams.DistributionParams = distributiontypes.DefaultParams()
 	genParams.DistributionParams.BaseProposerReward = sdk.MustNewDecFromStr("0.01")
@@ -527,11 +377,47 @@ func MainnetGenesisParams() GenesisParams {
 }
 
 func TestnetGenesisParams() GenesisParams {
-
+	testnetDenom := "uosmox"
 	genParams := MainnetGenesisParams()
-
+	genParams.StakingParams.BondDenom = testnetDenom
+	genParams.MintParams.MintDenom = testnetDenom
 	genParams.GenesisTime = time.Now()
+	genParams.MintParams.DistributionProportions = minttypes.DistributionProportions{
+		Staking:          sdk.MustNewDecFromStr("0.25"), // 25%
+		DeveloperRewards: sdk.MustNewDecFromStr("0.05"), // 25%
+		PoolIncentives:   sdk.MustNewDecFromStr("0.25"), // 45%
+		CommunityPool:    sdk.MustNewDecFromStr("0.45"), // 5%
+	}
+	genParams.StrategicReserveAccounts = []banktypes.Balance{
+		{
+			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
+			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(10_000_000_000_000))), // 10 million OSMO
+		},
+		{
+			Address: "osmo1g7rp8h6wzekjjy8n6my8za3vg3338eqz3v295v",
+			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(10_000_000_000_000))),
+		},
+		{
+			Address: "osmo1z7ql0vcjlznrruw3hwgm043w8yhzqmtpu5rlp9",
+			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(10_000_000_000_000))),
+		},
+	}
+	genParams.MintParams.WeightedDeveloperRewardsReceivers = []minttypes.WeightedAddress{
+		minttypes.WeightedAddress{
+			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
+			Weight:  sdk.MustNewDecFromStr("0.4"),
+		},
+		minttypes.WeightedAddress{
+			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
+			Weight:  sdk.MustNewDecFromStr("0.3"),
+		},
+		minttypes.WeightedAddress{
+			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
+			Weight:  sdk.MustNewDecFromStr("0.3"),
+		},
+	}
 
+	genParams.MintParams.WeightedDeveloperRewardsReceivers = []minttypes.WeightedAddress{}
 	genParams.Epochs = append(genParams.Epochs, epochstypes.EpochInfo{
 		Identifier:            "15min",
 		StartTime:             time.Time{},
@@ -556,7 +442,7 @@ func TestnetGenesisParams() GenesisParams {
 		sdk.NewInt(1000000), // 1 OSMO
 	))
 	genParams.GovParams.TallyParams.Quorum = sdk.MustNewDecFromStr("0.0000000001") // 0.00000001%
-	genParams.GovParams.VotingParams.VotingPeriod = time.Second * 300              // 300 seconds
+	genParams.GovParams.VotingParams.VotingPeriod = time.Hour * 24                 // 24 hour
 
 	genParams.IncentivesGenesis = *incentivestypes.DefaultGenesis()
 	genParams.IncentivesGenesis.Params.DistrEpochIdentifier = "15min"
@@ -566,6 +452,11 @@ func TestnetGenesisParams() GenesisParams {
 		time.Hour * 2,    // 2 hours
 	}
 
+	genParams.GovParams.DepositParams.MinDeposit = sdk.NewCoins(sdk.NewInt64Coin(testnetDenom, 20_000_000))
+
+	genParams.CrisisConstantFee.Denom = testnetDenom
+	genParams.ClaimParams.ClaimDenom = testnetDenom
+	genParams.PoolIncentivesGenesis.Params.MintedDenom = testnetDenom
 	genParams.ClaimParams.AirdropStartTime = genParams.GenesisTime
 	genParams.ClaimParams.DurationUntilDecay = time.Hour * 48 // 2 days
 	genParams.ClaimParams.DurationOfDecay = time.Hour * 48    // 2 days
