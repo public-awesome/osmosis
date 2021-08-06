@@ -1,0 +1,9 @@
+FROM alpine:3.14
+RUN apk add -U --no-cache ca-certificates
+
+WORKDIR /data
+ENV HOME=/data
+COPY ./build/osmosisd /usr/bin/osmosisd
+EXPOSE 26657
+
+CMD ["osmosisd", "start", "--pruning"]

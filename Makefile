@@ -3,7 +3,7 @@
 PACKAGES_SIMTEST=$(shell go list ./... | grep '/simulation')
 VERSION := $(shell echo $(shell git describe --tags) | sed 's/^v//')
 COMMIT := $(shell git log -1 --format='%H')
-LEDGER_ENABLED ?= true
+LEDGER_ENABLED ?= false
 SDK_PACK := $(shell go list -m github.com/cosmos/cosmos-sdk | sed  's/ /\@/g')
 DOCKER := $(shell which docker)
 BUILDDIR ?= $(CURDIR)/build
@@ -268,3 +268,6 @@ test-docker-push: test-docker
 	benchmark \
 	build-docker-osmosisdnode localnet-start localnet-stop \
 	docker-single-node
+
+build-docker-stargaze: build
+	docker build -f Dockerfile.stargaze -t publicawesome/osmosisd:testnet .

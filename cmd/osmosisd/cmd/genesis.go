@@ -390,29 +390,29 @@ func TestnetGenesisParams() GenesisParams {
 	}
 	genParams.StrategicReserveAccounts = []banktypes.Balance{
 		{
-			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
+			Address: "osmo1v3rsk0d2q2kwsdve0lece98kj5hkwyahjp6362",
 			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(10_000_000_000_000))), // 10 million OSMO
 		},
 		{
-			Address: "osmo1g7rp8h6wzekjjy8n6my8za3vg3338eqz3v295v",
+			Address: "osmo1s4ckh9405q0a3jhkwx9wkf9hsjh66nmuqn4qn6",
 			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(10_000_000_000_000))),
 		},
 		{
-			Address: "osmo1z7ql0vcjlznrruw3hwgm043w8yhzqmtpu5rlp9",
+			Address: "osmo1a8ct28n0e5x0v9mf7vzwn68u6zjv7sl5kt2j8t",
 			Coins:   sdk.NewCoins(sdk.NewCoin(genParams.NativeCoinMetadatas[0].Base, sdk.NewInt(10_000_000_000_000))),
 		},
 	}
 	genParams.MintParams.WeightedDeveloperRewardsReceivers = []minttypes.WeightedAddress{
 		minttypes.WeightedAddress{
-			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
+			Address: "osmo1v3rsk0d2q2kwsdve0lece98kj5hkwyahjp6362",
 			Weight:  sdk.MustNewDecFromStr("0.4"),
 		},
 		minttypes.WeightedAddress{
-			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
+			Address: "osmo1s4ckh9405q0a3jhkwx9wkf9hsjh66nmuqn4qn6",
 			Weight:  sdk.MustNewDecFromStr("0.3"),
 		},
 		minttypes.WeightedAddress{
-			Address: "osmo1el3aytvehpvxw2ymmya4kdyj9yndyy47fw5zh4",
+			Address: "osmo1a8ct28n0e5x0v9mf7vzwn68u6zjv7sl5kt2j8t",
 			Weight:  sdk.MustNewDecFromStr("0.3"),
 		},
 	}
